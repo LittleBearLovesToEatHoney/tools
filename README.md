@@ -109,6 +109,19 @@ public static Map<String, String> convertToMap(Properties properties) {
 
 ## FreeMarker
 
+> * 引入`FreeMarker`依赖
+
+```xml
+<!--引入Freemaker依赖-->
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.31</version>
+</dependency>
+```
+
+
+
 ### 加载项目根目录下的模板文件
 
 ```java
